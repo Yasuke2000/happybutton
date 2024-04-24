@@ -2,12 +2,7 @@ async function showRandomCat() {
     const apiURL = 'https://api.thecatapi.com/v1/images/search?mime_types=gif';
     const apiKey = 'live_xUpQNe6N2CqBynmwFmQv7hyrO9Cbe8C2uA1jpXfrsW6aVi2mot2yRQMIC9EziX4d';
     const messages = [
-        "I believe in you!",
-        "You are loved!",
-        "Keep pushing forward!",
-        "You're doing great!",
-        "Stay strong!"
-        "I believe in you!",
+    "I believe in you!",
     "You are loved!",
     "Keep pushing forward!",
     "You're doing great!",
@@ -37,7 +32,7 @@ async function showRandomCat() {
     "Wishing you strength for today and hope for tomorrow.",
     "Keep pushing, your future self is cheering you on!",
     "Embrace your uniqueness. Time is much too short to be living someone else’s life."
-    ];
+];
 
     try {
         const response = await fetch(apiURL, {
